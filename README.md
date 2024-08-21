@@ -34,8 +34,8 @@ wds     ex) bash ./run_hyperparam_ddp.sh /home/dataset/imagenet-w21-wds wds/ 1e-
 
 ## sigle-gpu
 ```
-bash ./run_hyperparam_single.sh IN21k-PATH DATASETLR WARMUP_LR GPU_NUMBER BATCHSIZE
+bash ./run_hyperparam_single.sh IN1k-PATH DATASETLR WARMUP_LR GPU_NUMBER BATCHSIZE
 
-default ex) bash ./run_hyperparam_single.sh /home/dataset/imagenet21k_train/train default  1e-3 1e-5 0 1024
+default ex) bash ./run_hyperparam_single.sh /home/dataset/imagenet1k/data/train default  1e-3 1e-5 0 1024
 wds     ex) bash ./run_hyperparam_single.sh /home/dataset/imagenet-w21-wds wds/  1e-3 1e-5 0 1024
 ```
